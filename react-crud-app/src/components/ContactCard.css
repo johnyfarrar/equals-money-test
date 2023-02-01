@@ -1,0 +1,17 @@
+.light-row {
+  background-color: #484a58;
+  cursor: pointer;
+}
+
+.light-row:hover {
+  background-color: #676a7e;
+}
+
+.dark-row {
+  background-color: #262835;
+  cursor: pointer;
+}
+
+.dark-row:hover {
+  background-color: #484c65;
+}

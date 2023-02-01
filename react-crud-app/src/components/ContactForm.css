@@ -1,0 +1,68 @@
+.title {
+  font-size: 24px;
+  margin: 1.5rem 0;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.label {
+  padding-top: 5px;
+}
+
+.input {
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgray;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.input:focus {
+  border-color: gray;
+}
+
+.input::placeholder {
+  color: gray;
+}
+
+.save {
+  max-width: 222px;
+  height: 47px;
+  margin-left: 0;
+  margin-top: 20px;
+  background-color: #ffb900;
+  color: #262835;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.delete {
+  max-width: 222px;
+  height: 47px;
+  margin-left: 0;
+  margin-top: 20px;
+  border: 1px solid #ffb900;
+  background-color: transparent;
+  color: #ffb900;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  cursor: pointer;
+  float: right;
+}
